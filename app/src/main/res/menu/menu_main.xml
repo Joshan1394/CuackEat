@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.psm.recyclerview.MainActivity">
+    <item
+        android:id="@+id/itemActionEdit_MenuMain"
+        android:icon="@drawable/ic_edit_24"
+        android:iconTint="@color/white"
+        android:orderInCategory="100"
+        android:title="Editar"
+        app:showAsAction="never|ifRoom|withText" />
+    <item
+        android:id="@+id/itemActionDelete_MenuMain"
+        android:icon="@drawable/ic_delete_24"
+        android:iconTint="@color/white"
+        android:orderInCategory="100"
+        android:title="Eliminar"
+        app:showAsAction="never|ifRoom|withText" />
+</menu>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ut_orange">
+
+    <TextView
+        android:id="@+id/lblCreateReview_CreateReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/poppin_bold"
+        android:gravity="center"
+        android:text="Crear reseña"
+        android:textColor="@color/champagne_pink"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblRestaurantName_CreateReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/poppin_bold"
+        android:gravity="center"
+        android:text="Nombre del restaurant"
+        android:textAppearance="@style/RestaurantName_CreateReview"
+        android:textColor="@color/champagne_pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lblCreateReview_CreateReview" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView_CreateReview"
+        app:layout_constraintTop_toBottomOf="@id/lblCreateReview_CreateReview"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblTitle_CreateReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppin"
+                android:text="Título"
+                android:textColor="@color/champagne_pink"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/lblDescription_CreateReview" />
+
+            <EditText
+                android:id="@+id/txtTitle_CreateReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:ems="10"
+                android:hint="Ingresa un título"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/lblTitle_CreateReview"/>
+
+            <TextView
+                android:id="@+id/lblDescription_CreateReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppin"
+                android:text="Descripción"
+                android:textColor="@color/champagne_pink"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle_CreateReview" />
+
+            <EditText
+                android:id="@+id/txtDescription_CreateReview"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:ems="10"
+                android:hint="Ingresa una descripción"
+                android:text=""
+                android:inputType="textMultiLine"
+                android:gravity="start|top"
+                app:layout_constraintTop_toBottomOf="@+id/lblDescription_CreateReview"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <TextView
+                android:id="@+id/lblImages_CreateReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/poppin"
+                android:gravity="center"
+                android:text="Imágenes"
+                android:textColor="@color/champagne_pink"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtDescription_CreateReview" />
+
+            <ImageButton
+                android:id="@+id/imgBtnAddImage_CreateReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_image_24"
+                app:layout_constraintTop_toBottomOf="@+id/lblImages_CreateReview"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView_CreateReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarStyle="outsideInset"
+                android:scrollbars="vertical"
+                android:layout_marginBottom="0dp"
+                app:layout_constraintTop_toBottomOf="@+id/imgBtnAddImage_CreateReview"
+                app:layout_constraintBottom_toTopOf="@+id/lblErrorMessage_CreateReview"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/lblErrorMessage_CreateReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="0dp"
+                android:text=""
+                android:textColor="@color/claret"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/recyclerView_CreateReview"
+                app:layout_constraintBottom_toTopOf="@id/btnCreate_CreateReview"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btnCreate_CreateReview"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="150dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/fern_green"
+                android:textColor="@color/champagne_pink"
+                app:cornerRadius="40dp"
+                android:text="Crear"
+                app:layout_constraintTop_toBottomOf="@+id/lblErrorMessage_CreateReview"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

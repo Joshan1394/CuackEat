@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ut_orange"
+    >
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardProfileImage_Profile"
+    android:layout_width="72dp"
+    android:layout_height="72dp"
+    app:cardCornerRadius="50dp"
+    android:layout_marginStart="168dp"
+    android:layout_marginTop="70dp"
+    android:layout_marginEnd="171dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/imgProfileImage_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars" />
+</androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/txtNickname_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Apodo"
+        android:textColor="@color/champagne_pink"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardProfileImage_Profile" />
+
+    <TextView
+        android:id="@+id/txtName_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Nombre completo de usuario"
+        android:textColor="@color/champagne_pink"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNickname_Profile" />
+
+    <TextView
+        android:id="@+id/txtDescription_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="Descripcion completa del usuario"
+        android:textColor="@color/champagne_pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtName_Profile" />
+
+    <Button
+        android:id="@+id/btnEditProfile_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="80dp"
+        android:text="Editar"
+        android:textColor="@color/champagne_pink"
+        android:gravity="center"
+        app:backgroundTint="@color/fern_green"
+        app:cornerRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescription_Profile" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnEditProfile_Profile"
+        app:tabTextColor="@color/champagne_pink"
+        app:tabIndicatorColor="@color/claret"
+        app:tabSelectedTextColor="@color/claret"
+        android:background="@color/ochre"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout_Profile"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ReviewTitle" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/smoky_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ReviewAlias" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/smoky_black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+    <style name="ReviewRestaurantName" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/smoky_black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="RestaurantName" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/smoky_black</item>
+    </style>
+    <style name="RestaurantName_CreateReview" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/smoky_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CourseTitle" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/smoky_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DetailTitle" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/smoky_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+    <style name="DetailDescription" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/champagne_pink</item>
+        <item name="android:justificationMode">inter_word</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="ReviewDetailRestaurantTitle" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/smoky_black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="ReviewDetailRestaurantDescription" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/smoky_black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="ReviewDetailUserNickname" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="Button.Green" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/fern_green</item>
+    </style>
+
+    <style name="myCustomMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/champagne_pink</item>
+    </style>
+</resources>

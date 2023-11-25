@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    //Paleta de colores de Cuackeat
+    <color name="ut_orange">#FB8B24</color>
+    <color name="ochre">#C77B19</color>
+    <color name="sinopia">#CB4721</color>
+    <color name="fern_green">#4A7452</color>
+    <color name="claret">#7D092F</color>
+    <color name="error">#5c0a2b</color>
+    <color name="amaranth">#912c47</color>
+    <color name="china_rose">#a44f5f</color>
+    <color name="champagne_pink">#EEDFD3</color>
+    <color name="timberwolf">#D3C4BA</color>
+    <color name="smoky_black">#100704</color>
+
+</resources>

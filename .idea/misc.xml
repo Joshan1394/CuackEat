@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable-v24/box.xml" value="0.224" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable-v24/circle.xml" value="0.137" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable-v24/circle_perfil.xml" value="0.137" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable-v24/ic_add_24.xml" value="0.224" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable-v24/ic_favorite.xml" value="0.342" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.224" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable-v24/ic_profile_24.xml" value="0.224" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable-v24/ic_thumb_up_24.xml" value="0.342" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable/button.xml" value="0.279" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable/circle_perfil.xml" value="0.137" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.387" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable/ic_launcher_background.xml" value="0.224" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/drawable/img.xml" value="0.279" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_album.xml" value="0.2" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_create_review.xml" value="0.264" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_edit_pass.xml" value="0.4" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_edit_profile.xml" value="0.1265625" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_main.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_main_prueba.xml" value="0.2" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_main_search.xml" value="0.1265625" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_perfil.xml" value="0.4" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_principal.xml" value="0.1265625" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_restaurant_detail.xml" value="0.4" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_review_detail.xml" value="0.3427362482369535" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/activity_setting.xml" value="0.1265625" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/app_bar_main.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/content_main.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/content_main_restaurant.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/content_main_reviews_restaurant_details.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/content_main_search.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/content_master.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/discover.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/edit_review.xml" value="0.4" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/fragment_profile_favorite_reviews.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/fragment_profile_restaurant.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/home.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/item_album_list.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/item_image.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/item_restaurant_list.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/item_review_list.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/nav_header_main.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/restaurant_details.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/layout/review_details.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/johan/AndroidStudioProjects/CuackEat/app/src/main/res/menu/activity_main_drawer.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item android:id="@+id/nav_item_home"
+            android:icon="@drawable/ic_home_24"
+            android:title="@string/menu_inicio" />
+        <item android:id="@+id/nav_item_discover"
+            android:icon="@drawable/ic_baseline_bakery_dining_24"
+            android:title="@string/menu_descubre" />
+        <item android:id="@+id/nav_item_profile"
+            android:icon="@drawable/ic_profile_24"
+            android:title="@string/menu_perfil" />
+    </group>
+
+    <group android:id="@+id/group_menu">
+        <item android:id="@+id/nav_item_settings"
+            android:icon="@drawable/ic_settings_24"
+            android:title="@string/menu_opciones" />
+    </group>
+
+    <!-- <item android:title="Social Media">
+
+        <item android:id="@+id/nav_item_facebook"
+            android:icon="@drawable/ic_thumb_up_24"
+            android:title="@string/menu_facebook" />
+        <item android:id="@+id/nav_item_youtube"
+            android:icon="@drawable/ic_video_library_24"
+            android:title="@string/menu_youtube" />
+    </item> -->
+</menu>
